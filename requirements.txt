@@ -1,0 +1,12 @@
+# Core Video Forge runtime
+numpy>=1.26
+soundfile>=0.12
+PyYAML>=6.0
+requests>=2.31
+
+# TTS engines
+kokoro-onnx>=0.4
+edge-tts>=6.1
+
+# Optional: Gemini TTS / image generation
+google-genai>=1.0

@@ -1,0 +1,17 @@
+{
+  "name": "video-forge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.543",
+    "@remotion/fonts": "^4.0.543",
+    "@remotion/transitions": "^4.0.543",
+    "remotion": "^4.0.543",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.7"
+  }
+}

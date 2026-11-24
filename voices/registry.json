@@ -1,0 +1,267 @@
+{
+  "default": "warm-female",
+  "script": "Here's the thing about light. It travels in waves, and every colour has its own wavelength. When sunlight hits our atmosphere, the short blue waves scatter far more than the long red ones. That is why the sky glows blue, and why sunsets burn orange.",
+  "profiles": {
+    "warm-female": {
+      "label": "Ava - warm, clear, trusted",
+      "engine": "kokoro",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "gender": "female",
+      "accent": "US",
+      "tags": [
+        "warm",
+        "calm",
+        "documentary"
+      ],
+      "commercial": "clean",
+      "note": "Kokoro (Apache-2.0). Best all-round local voice for explainers."
+    },
+    "bright-female": {
+      "label": "Bella - bright, energetic",
+      "engine": "kokoro",
+      "voice": "af_bella",
+      "speed": 1.0,
+      "gender": "female",
+      "accent": "US",
+      "tags": [
+        "bright",
+        "upbeat"
+      ],
+      "commercial": "clean"
+    },
+    "calm-female": {
+      "label": "Nicole - soft, intimate",
+      "engine": "kokoro",
+      "voice": "af_nicole",
+      "speed": 0.98,
+      "gender": "female",
+      "accent": "US",
+      "tags": [
+        "soft",
+        "asmr",
+        "calm"
+      ],
+      "commercial": "clean"
+    },
+    "warm-male": {
+      "label": "Michael - warm, conversational",
+      "engine": "kokoro",
+      "voice": "am_michael",
+      "speed": 1.0,
+      "gender": "male",
+      "accent": "US",
+      "tags": [
+        "warm",
+        "friendly"
+      ],
+      "commercial": "clean"
+    },
+    "deep-male": {
+      "label": "Fenrir - deep, cinematic",
+      "engine": "kokoro",
+      "voice": "am_fenrir",
+      "speed": 0.96,
+      "gender": "male",
+      "accent": "US",
+      "tags": [
+        "deep",
+        "trailer"
+      ],
+      "commercial": "clean"
+    },
+    "onyx-male": {
+      "label": "Onyx - measured, authoritative",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "speed": 0.98,
+      "gender": "male",
+      "accent": "US",
+      "tags": [
+        "authority",
+        "documentary"
+      ],
+      "commercial": "clean"
+    },
+    "british-female": {
+      "label": "Emma - British, poised",
+      "engine": "kokoro",
+      "voice": "bf_emma",
+      "speed": 1.0,
+      "gender": "female",
+      "accent": "UK",
+      "tags": [
+        "british",
+        "editorial"
+      ],
+      "commercial": "clean"
+    },
+    "british-male": {
+      "label": "George - British, narrator",
+      "engine": "kokoro",
+      "voice": "bm_george",
+      "speed": 0.98,
+      "gender": "male",
+      "accent": "UK",
+      "tags": [
+        "british",
+        "narrator"
+      ],
+      "commercial": "clean"
+    },
+    "edge-warm-male": {
+      "label": "Andrew - warm, natural (Edge)",
+      "engine": "edge",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "speed": 1.0,
+      "gender": "male",
+      "accent": "US",
+      "tags": [
+        "natural",
+        "premium"
+      ],
+      "commercial": "check-license",
+      "note": "Microsoft Edge neural voice. Excellent quality; check Microsoft's terms before monetised publishing."
+    },
+    "edge-clear-female": {
+      "label": "Ava - clear, engaging (Edge)",
+      "engine": "edge",
+      "voice": "en-US-AvaMultilingualNeural",
+      "speed": 1.0,
+      "gender": "female",
+      "accent": "US",
+      "tags": [
+        "natural",
+        "friendly"
+      ],
+      "commercial": "check-license"
+    },
+    "edge-storyteller": {
+      "label": "Brian - storyteller (Edge)",
+      "engine": "edge",
+      "voice": "en-US-BrianMultilingualNeural",
+      "speed": 1.0,
+      "gender": "male",
+      "accent": "US",
+      "tags": [
+        "storytelling",
+        "casual"
+      ],
+      "commercial": "check-license"
+    },
+    "edge-british-male": {
+      "label": "Ryan - British, documentary (Edge)",
+      "engine": "edge",
+      "voice": "en-GB-RyanNeural",
+      "speed": 1.0,
+      "gender": "male",
+      "accent": "UK",
+      "tags": [
+        "british",
+        "documentary"
+      ],
+      "commercial": "check-license"
+    },
+    "edge-indian-male": {
+      "label": "Prabhat - Indian English (Edge)",
+      "engine": "edge",
+      "voice": "en-IN-PrabhatNeural",
+      "speed": 1.0,
+      "gender": "male",
+      "accent": "IN",
+      "tags": [
+        "indian",
+        "warm"
+      ],
+      "commercial": "check-license"
+    },
+    "edge-indian-female": {
+      "label": "Neerja - Indian English (Edge)",
+      "engine": "edge",
+      "voice": "en-IN-NeerjaNeural",
+      "speed": 1.0,
+      "gender": "female",
+      "accent": "IN",
+      "tags": [
+        "indian",
+        "clear"
+      ],
+      "commercial": "check-license"
+    },
+    "gemini-warm": {
+      "label": "Kore - warm, expressive (Gemini)",
+      "engine": "gemini",
+      "voice": "Kore",
+      "speed": 1.0,
+      "gender": "female",
+      "accent": "US",
+      "tags": [
+        "expressive",
+        "premium"
+      ],
+      "commercial": "clean",
+      "style": "Read in a warm, curious, documentary narrator voice at a measured pace",
+      "model": "gemini-3.8-flash-tts"
+    },
+    "gemini-deep": {
+      "label": "Charon - deep, cinematic (Gemini)",
+      "engine": "gemini",
+      "voice": "Charon",
+      "speed": 1.0,
+      "gender": "male",
+      "accent": "US",
+      "tags": [
+        "deep",
+        "cinematic"
+      ],
+      "commercial": "clean",
+      "style": "Read in a deep, calm, cinematic documentary voice",
+      "model": "gemini-3.8-flash-tts"
+    },
+    "gemini-fola": {
+      "label": "Fola - warm, global English (Gemini)",
+      "engine": "gemini",
+      "voice": "Fola",
+      "speed": 1.0,
+      "gender": "female",
+      "accent": "Global",
+      "tags": [
+        "warm",
+        "global"
+      ],
+      "commercial": "clean",
+      "style": "Read in a warm, confident, conversational narrator voice",
+      "model": "gemini-3.8-flash-tts"
+    },
+    "warm-female-slow": {
+      "label": "Ava - slower, weightier (0.94×)",
+      "engine": "kokoro",
+      "voice": "af_heart",
+      "speed": 0.94,
+      "gender": "female",
+      "accent": "US",
+      "tags": [
+        "warm",
+        "slow",
+        "documentary"
+      ],
+      "commercial": "clean",
+      "note": "Same voice at 0.94× — more gravitas for serious explainers."
+    },
+    "warm-female-fast": {
+      "label": "Ava - brisker, brighter (1.08×)",
+      "engine": "kokoro",
+      "voice": "af_heart",
+      "speed": 1.08,
+      "gender": "female",
+      "accent": "US",
+      "tags": [
+        "warm",
+        "fast",
+        "energetic"
+      ],
+      "commercial": "clean",
+      "note": "Same voice at 1.08× — better for fast-paced, younger audiences."
+    }
+  }
+}

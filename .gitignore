@@ -1,0 +1,39 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# local toolchains / caches
+node_modules/
+.npm-cache/
+.venv/
+models/
+out/
+dist/
+
+# OS
+.DS_Store
+
+# generated voice auditions and samples
+voices/samples/
+voices/audition.html
+voices/manifest.json
+
+# generated runtime media (music, SFX, demo plates)
+public/audio/
+public/proof30/
+public/gardner/
+public/cooper/
+public/projects/
+
+# generated outputs / logs
+*.log
+*.mp4
+*.mov
+*.wav
+*.mp3
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
